@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Pão",
+        "price": 1.00,
+        "about": "Pão francês fabricado no Brasil.",
+        "avatar": "pao.png",
+         "loja": "Gbarbosa",
+        "status": 3
+        
+  },
+    {
+        "id": 2,
+        "name": "Pão",
+        "price": 1.50,
+        "about": "Pão francês fabricado na Argentina.",
+        "avatar": "pao1.png",
+         "loja": "Extra",
+        "status": 0
+        
+  },
+    {
+        "id": 3,
+        "name": "Pão",
+        "price": 0.97,
+        "about": "Pão francês fabricado na Franca.",
+        "avatar": "pao2.png",
+         "loja": "Bom Preço",
+        "status": 1
+        
+  },{
+        "id": 4,
+        "name": "Vinagre",
+        "price": 5.00,
+        "about": "Vinagre Tinto.",
+        "avatar": "vinagre.png",
+         "loja": "Extra",
+        "status": 3
+        
+  },{
+        "id": 5,
+        "name": "Vinagre",
+        "price": 5.50,
+        "about": "Vinagre Azul.",
+        "avatar": "vinagre1.png",
+         "loja": "Gbarbosa",
+        "status": 1
+        
+  },
+    {
+        "id": 6,
+        "name": "Vinagre",
+        "price": 4.70,
+        "about": "Vinagre Branco.",
+        "avatar": "vinagre2.png",
+         "loja": "Bom Preço",
+        "status": 0
+        
+  },
+    {
+        "id": 7,
+        "name": "Cerveja",
+        "price": 21.00,
+        "about": "Cerveja Red Ale.",
+        "avatar": "cerveja.png",
+         "loja": "Bom Preço",
+        "status": 0
+        
+  },
+    {
+        "id": 8,
+        "name": "Cerveja",
+        "price": 7.00,
+        "about": "Cerveja Pilsen.",
+        "avatar": "cerveja1.png",
+         "loja": "Gbarbosa",
+        "status": 3 
+        
+  },
+    {
+        "id": 9,
+        "name": "Cerveja",
+        "price": 45.00,
+        "about": "Cerveja Stout.",
+        "avatar": "cerveja2.png",
+         "loja": "Extra",
+        "status": 3
+        
+  },
+    {
+        "id": 10,
+        "name": "Smart TV",
+        "price": 5.000,
+        "about": "Smart TV LG 50'.",
+        "avatar": "smarttv.png",
+         "loja": "Bom Preço",
+        "status": 1
+        
+  },
+    {
+        "id": 11,
+        "name": "Smart TV",
+        "price": 2.000,
+        "about": "Smart TV Sansung 41'.",
+        "avatar": "smarttv1.png",
+         "loja": "Gbarbosa",
+        "status": 0
+        
+  },
+    {
+        "id": 12,
+        "name": "Smart TV",
+        "price": 1.999,
+        "about": "Smart TV aleatória.",
+        "avatar": "smarttv2.png",
+         "loja": "Extra",
+        "status": 2
+        
+  }
+ 
+    
+]

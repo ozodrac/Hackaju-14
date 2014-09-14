@@ -1,0 +1,29 @@
+{
+  "name": "Feirinha",
+  "description": "Lista de produtos",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Nameless Groul 1 & Nameless Groul 2",
+    "url": "Developer's website or something that is related to the app"
+  },
+  "icons": {
+    "32": "/images/icons/icon32.png (This is optimal for Windows 7 and Android)",
+    "90": "/images/icons/icon90.png (This is optimal for Windows 7 and Android)",
+    "120": "/images/icons/icon120.png (This is optimal for Windows 7 and Android)",
+    "128": "/img/icons/ffx128.png (This is the only mandatory size!)",
+    "256": "/images/icons/icon256.png (This is optimal for Windows 7 and Android)"
+  },
+  "fullscreen": "true or false (Whether your app should be launched fullscreen / Se seu aplicativo e tela cheia ou nao.)",
+  "default_locale": "pt-BR",
+  "orientation": "orientações na qual o aplicativo funcionará",
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {
+      "description": "For future XmlHTTPRequests"
+    }
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "version": "1.0"
+}

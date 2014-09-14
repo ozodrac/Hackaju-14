@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app='AppHackaju' lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="modules/app.js"></script>
+    <title>Document</title>
+</head>
+
+<body ng-controller='ProductStore'>
+    <input ng-model="buscar.name" placeholder="Pesquisar Produto">
+    <div ng-repeat="product in produtos |orderBy :'status' :reverse=true |filter:buscar.name">
+
+        <img src="img/{{product.avatar}}" alt="{{product.name}}">
+        <h1>Produto: {{product.name}}</h1>
+        <h2>{{product.price |currency}}</h2>
+        <h4>Loja: {{product.loja}}</h4>
+        <h4>Descrição: </h4>
+        <p>{{product.about}}</p>
+        <button>Status: {{product.status}}</button>
+    </div>
+    
+    <div ng-repeat="product in produtos |orderBy :'status' :reverse=true |filter:buscar.name">
+
+        <img src="img/{{product.avatar}}" alt="{{product.name}}">
+        <h1>Produto: {{product.name}}</h1>
+        <h2>{{product.price |currency}}</h2>
+        <h4>Loja: {{product.loja}}</h4>
+        <h4>Descrição: </h4>
+        <p>{{product.about}}</p>
+        <button>Status: {{product.status}}</button>
+    </div>
+    
+</body>
+
+</html>
